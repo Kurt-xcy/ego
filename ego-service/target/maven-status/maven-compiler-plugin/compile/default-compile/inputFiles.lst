@@ -1,4 +1,6 @@
 D:\IT\尚学堂java百战程序员视频教程\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\2. 电商Ego-使用VSFTPD和Nginx完成商品新增\文档源码\04 代码\01 全部代码\ego-parent\ego-service\src\main\java\com\ego\dubbo\service\TbItemDubboService.java
 D:\IT\尚学堂java百战程序员视频教程\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\2. 电商Ego-使用VSFTPD和Nginx完成商品新增\文档源码\04 代码\01 全部代码\ego-parent\ego-service\src\main\java\com\ego\dubbo\service\TbItemCatDubboService.java
 D:\IT\尚学堂java百战程序员视频教程\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\2. 电商Ego-使用VSFTPD和Nginx完成商品新增\文档源码\04 代码\01 全部代码\ego-parent\ego-service\src\main\java\com\ego\dubbo\service\TbItemDescDubboService.java
+D:\IT\尚学堂java百战程序员视频教程\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\2. 电商Ego-使用VSFTPD和Nginx完成商品新增\文档源码\04 代码\01 全部代码\ego-parent\ego-service\src\main\java\com\ego\dubbo\service\TbContentCategoryDubboService.java
 D:\IT\尚学堂java百战程序员视频教程\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\2. 电商Ego-使用VSFTPD和Nginx完成商品新增\文档源码\04 代码\01 全部代码\ego-parent\ego-service\src\main\java\com\ego\dubbo\service\TbItemParamDubboService.java
+D:\IT\尚学堂java百战程序员视频教程\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\08. 分布式亿级高并发电商项目【北京尚学堂·百战程序员】\2. 电商Ego-使用VSFTPD和Nginx完成商品新增\文档源码\04 代码\01 全部代码\ego-parent\ego-service\src\main\java\com\ego\dubbo\service\TbContentDubboService.java
