@@ -67,4 +67,27 @@
 			<artifactId>zkclient</artifactId>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<!-- 指定项目的打包插件信息 -->
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<!-- 指定打包描述文件的位置：相对项目根目录的路径 -->
+					<!-- assembly打包的描述文件 -->
+					<descriptor>assembly/assembly.xml</descriptor>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	
 </project>

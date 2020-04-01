@@ -1,5 +1,6 @@
 package com.ego.dubbo.service.impl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -32,6 +33,23 @@ public class TbContentDubboServiceImpl implements TbContentDubboService{
 	@Override
 	public int insContent(TbContent content) {
 		return tbContentMapper.insertSelective(content);
+	}
+	
+	
+	
+	@Override
+	public List<TbContent> selByCount(int count, boolean issort) {
+		List<TbContent> list = new  ArrayList<>();
+		
+		TbContentExample example = new TbContentExample();
+		if(issort){
+			example.setOrderByClause("updated desc");
+		}
+		if (count != 0) {
+			PageHelper.startPage(1, count);
+		}
+		list = tbContentMapper.selectByExample(example);
+		return list;
 	}
 	
 }

@@ -34,7 +34,17 @@
 	<!--显示内容  -->
 	<dubbo:service interface="com.ego.dubbo.service.TbContentDubboService" ref="tbContentDubboServiceImpl"></dubbo:service>
 	<bean id="tbContentDubboServiceImpl" class="com.ego.dubbo.service.impl.TbContentDubboServiceImpl"></bean>
+	<!--商品规格参数  -->
+	<dubbo:service interface="com.ego.dubbo.service.TbItemParamItemDubboService" ref="tbItemParamItemDubboServiceImpl"></dubbo:service>
+	<bean id="tbItemParamItemDubboServiceImpl" class="com.ego.dubbo.service.impl.TbItemParamItemDubboServiceImpl"></bean>
+	<!--商品规格参数  -->
+	<dubbo:service interface="com.ego.dubbo.service.TbUserDubboService" ref="tbUserDubboServiceImpl"></dubbo:service>
+	<bean id="tbUserDubboServiceImpl" class="com.ego.dubbo.service.impl.TbUserDubboServiceImpl"></bean>
+	<!--创建订单  -->
+	<dubbo:service interface="com.ego.dubbo.service.TbOrderDubboService" ref="tbOrderDubboServiceImpl"></dubbo:service>
+	<bean id="tbOrderDubboServiceImpl" class="com.ego.dubbo.service.impl.TbOrderDubboServiceImpl"></bean>
 	
 	<import resource="../../applicationContext.xml"/>
+	
 </beans>
 

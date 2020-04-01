@@ -9,6 +9,12 @@
   <packaging>war</packaging>
   
   <dependencies>
+  		<dependency>
+  		<groupId>com.ego</groupId>
+    <artifactId>ego-redis</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  
 		<!-- 分页插件 -->
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>
@@ -97,8 +103,11 @@
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<configuration>
-					<port>8082</port>
-					<path>/</path>
+					<!-- <port>8082</port> -->
+					<path>/ego-portal</path>
+					<username>tomcat</username>
+					<password>82357366</password>
+					<url>http://192.168.27.137/manager/text</url>
 				</configuration>
 			</plugin>
 		</plugins>
